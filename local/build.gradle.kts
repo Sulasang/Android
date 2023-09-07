@@ -28,4 +28,7 @@ dependencies {
     implementation(libs.room.ktx)
 
     implementation(libs.timber)
+    testImplementation(libs.junit4)
+    androidTestImplementation(libs.junit)
+    androidTestImplementation(libs.espresso.core)
 }

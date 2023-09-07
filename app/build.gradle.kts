@@ -37,4 +37,8 @@ dependencies {
     implementation(libs.kotlinx.serialization.json)
 
     implementation(libs.timber)
+
+    testImplementation(libs.junit4)
+    androidTestImplementation(libs.junit)
+    androidTestImplementation(libs.espresso.core)
 }
