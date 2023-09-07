@@ -15,3 +15,10 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Sulasang"
 include (":app")
+include(":core-ui")
+include(":domain")
+include(":local")
+include(":data")
+include(":remote")
+include(":feature-home")
+include(":di")

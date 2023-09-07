@@ -1,8 +1,7 @@
-package com.lsakee.sulasang
+package com.lsakee.feature_home
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.serialization.Serializable
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

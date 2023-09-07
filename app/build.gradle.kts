@@ -23,6 +23,11 @@ android {
 }
 
 dependencies {
+    implementation(project(":data"))
+    implementation(project(":domain"))
+    implementation(project(":feature-home"))
+    implementation(project(":remote"))
+    implementation(project(":core-ui"))
 
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.core.ktx)
@@ -37,4 +42,8 @@ dependencies {
     implementation(libs.kotlinx.serialization.json)
 
     implementation(libs.timber)
+
+    testImplementation(libs.junit4)
+    androidTestImplementation(libs.junit)
+    androidTestImplementation(libs.espresso.core)
 }
