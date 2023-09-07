@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Sulasang"
 include (":app")
+include(":core-ui")

@@ -31,12 +31,12 @@ retrofit = "2.9.0"
 retrofitKotlinxSerializationJson = "1.0.0"
 okhttp = "4.11.0"
 
-timber = "5.0.1"
-
 hilt = "2.46.1"
 room = "2.5.2"
 
+timber = "5.0.1"
 encryptedDataStore = "1.7.21-1.0.8-1.1.0-alpha01"
+kakao = "2.14.0"
 simpleRatingBar = "1.5.1"
 tedImagePicker = "1.4.2"
 tedPermission = "3.3.0"
@@ -44,8 +44,11 @@ coil = "2.4.0"
 lottie = "5.0.2"
 mpAndroidChart = "v3.1.0"
 powerMenu = "2.2.2"
+
 ossPlugin = "0.10.6"
 oss = "17.0.1"
+junit = "1.1.5"
+espresso-core = "3.5.1"
 
 [plugins]
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
@@ -112,6 +115,8 @@ room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "
 junit4 = { group = "junit", name = "junit", version.ref = "junit4" }
 
 oss = { group = "com.google.android.gms", name = "play-services-oss-licenses", version.ref = "oss" }
+junit = { group = "androidx.test.ext", name = "junit", version.ref = "junit" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
 
 [bundles]
 androidx-lifecycle = ["androidx-lifecycle-runtime-ktx", "androidx-lifecycle-viewmodel-ktx"]
