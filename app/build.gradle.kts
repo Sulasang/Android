@@ -23,6 +23,11 @@ android {
 }
 
 dependencies {
+    implementation(project(":data"))
+    implementation(project(":domain"))
+    implementation(project(":feature-home"))
+    implementation(project(":remote"))
+    implementation(project(":core-ui"))
 
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.core.ktx)

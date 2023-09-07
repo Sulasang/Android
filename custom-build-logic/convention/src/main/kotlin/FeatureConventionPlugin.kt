@@ -10,7 +10,7 @@ internal class FeatureConventionPlugin : Plugin<Project> {
         with(target) {
             with(pluginManager) {
                 apply("lsakee.plugin.android-library")
-                apply("androidx.navigation.safeargs.kotlin")
+//                apply("androidx.navigation.safeargs.kotlin")
                 apply("lsakee.plugin.hilt")
             }
 
